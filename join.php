@@ -80,6 +80,7 @@
             <img src="images/candle.png" alt=""/>
         </div>
         <img class="bg-pic" src="./images/bg-pic4.jpg" alt=""/>
+        <p class="skill">技术支持 : 安徽瀚滔网络</p>
     </div>
     <div class="thr_btn">
         <a href=""><img src="./images/get.jpg" alt=""/></a>
