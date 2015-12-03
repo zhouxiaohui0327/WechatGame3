@@ -25,12 +25,13 @@
     </script>
 </head>
 <body onload="setTimeout('myfunction()',2000)">
+<div id="d-mask" style="display:none"></div>                   <!--黑色透明背景-->
 <div class="wrap">
     <div class="chief chief_left">
-        <img  src="./images/index_1.jpg" alt=""/>
+        <img  src="./images/1212.png" alt=""/>
     </div>
     <div class="chief chief_right">
-        <img  src="./images/index_2.jpg" alt=""/>
+        <img  src="./images/123123.png" alt=""/>
     </div>
     <div class="container">
         <img class="bg-pic" src="./images/bg-pic.jpg" alt=""/>
@@ -38,10 +39,26 @@
     <div class="thr_btn">
         <a href=""><img src="./images/get.jpg" alt=""/></a>
         <a href="./join.php"><img src="./images/join.jpg" alt=""/></a>
-        <a href=""><img src="./images/rule.jpg" alt=""/></a>
+        <a href="javascript:rule()"><img src="./images/rule.jpg" alt=""/></a>
+    </div>
+    <div class="ruleWrap" style="display:none">                                           <!--规则弹出框-->
+        <img src="./images/rule_pic.jpg" alt=""/>
     </div>
 
+    <script>
+        function rule(){
+            $(".ruleWrap , #d-mask").css({display:"block"});
+        }
 
+            $("#d-mask").click(function(){
+                $(this).css({display:"none"});
+                $(".ruleWrap").css({display:"none"});
+            });
+            $(".ruleWrap").click(function(){
+                $(this).css({display:"none"});
+                $("#d-mask").css({display:"none"});
+            })
+    </script>
 </div>
 </body>
 </html>

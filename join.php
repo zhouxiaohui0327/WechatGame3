@@ -26,6 +26,10 @@
         <img src="./images/share.png" alt=""/>
     </div>
 
+    <div class="ruleWrap" style="display:none">                                           <!--活动规则弹出框-->
+        <img src="./images/rule_pic.jpg" alt=""/>
+    </div>
+
     <div class="winningWrap" style="display:none">                                   <!-- 恭喜中奖，弹出框-->
         <img src="./images/winning.jpg" alt=""/>
         <div class="btnWrap">
@@ -52,22 +56,43 @@
             </form>
         </div>
     </div>
-    <div class="not_enough">                                                              <!--券被领完，弹出框-->
+
+    <div class="faceWrap" style="display: none">                                                              <!--券被领完，弹出框-->
         <img src="./images/not_enough.png" alt=""/>
         <p>来晚了，券被领完了！</p>
     </div>
 
 
     <div class="container">
-        <img class="bg-pic" src="./images/bg-pic.jpg" alt=""/>
+        <div class="candle candle_1" style="display:none">                                                     <!--第一根蜡烛亮-->
+            <img src="images/candle.png" alt=""/>
+        </div>
+        <div class="candle candle_2" style="display: none">                                                    <!--第二根蜡烛亮-->
+            <img src="images/candle.png" alt=""/>
+        </div>
+        <div class="candle candle_3" style="display: none">                                                    <!--第三根蜡烛亮-->
+            <img src="images/candle.png" alt=""/>
+        </div>
+        <div class="candle candle_4" style="display: none">                                                    <!--第四根蜡烛亮-->
+            <img src="images/candle.png" alt=""/>
+        </div>
+        <div class="candle candle_5" style="display: none">                                                    <!--第五根蜡烛亮-->
+            <img src="images/candle.png" alt=""/>
+        </div>
+        <img class="bg-pic" src="./images/bg-pic4.jpg" alt=""/>
     </div>
     <div class="thr_btn">
         <a href=""><img src="./images/get.jpg" alt=""/></a>
         <a href="javascript:Invitation()"><img style="width:26%" src="./images/Invitation.jpg" alt=""/></a>
-        <a href=""><img src="./images/rule.jpg" alt=""/></a>
+        <a href="javascript:rule()"><img src="./images/rule.jpg" alt=""/></a>
     </div>
 </div>
 </body>
+<script>
+    function rule(){
+        $(".ruleWrap , #d-mask").css({display:"block"});
+    }
+</script>
 <script>
     function clickGet(){
         $(".winningWrap").css({display:"none"});
@@ -81,6 +106,10 @@
             $(this).siblings().removeClass("active");
             var place = $(this).html();
             $('input[name=place_name]').val(place);
+        });
+        $(".faceWrap").click(function(){
+            $(this).css({display:"none"});
+            $("#d-mask").css({display:"none"});
         });
     })
 </script>
@@ -99,8 +128,13 @@
         $("#d-mask").click(function(){
             $(this).css({display:"none"});
             $(".shareWrap").css({display:"none"});
+            $(".faceWrap").css({display:"none"});
+            $(".ruleWrap").css({display:"none"});
+        })
+        $(".ruleWrap").click(function(){
+            $(this).css({display:"none"});
+            $("#d-mask").css({display:"none"});
         })
     })
-
 </script>
 </html>
