@@ -17,6 +17,11 @@
     <script src="./js/jquery-2.1.4.js"></script>
     <!--    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
     <title>包河万达5周年庆</title>
+    <script>
+        $(document).ready(function(){
+            window.scrollTo(0,300);
+        })
+    </script>
 
 </head>
 <body>

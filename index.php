@@ -18,11 +18,18 @@
 <!--    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
     <title>包河万达5周年庆</title>
     <script>
+        $(document).ready(function(){
+                window.scrollTo(0,300);
+        })
+    </script>
+
+    <script>
        function myfunction(){
            $(".chief_left").animate({left:"-300px"},2000);
            $(".chief_right").animate({right:"-300px"},2000);
        }
     </script>
+
 </head>
 <body onload="setTimeout('myfunction()',2000)">
 <div id="d-mask" style="display:none"></div>                   <!--黑色透明背景-->
@@ -60,7 +67,7 @@
                 $("#d-mask").css({display:"none"});
             })
     </script>
-</div>
 
+</div>
 </body>
 </html>
