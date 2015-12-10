@@ -60,12 +60,12 @@
 <body onload="setTimeout('myfunction()',2000)">
 <div id="d-mask" style="display:none"></div>                   <!--黑色透明背景-->
 <div class="wrap">
-<!--    <div class="chief chief_left">-->
-<!--        <img  src="./images/1212.png" alt=""/>-->
-<!--    </div>-->
-<!--    <div class="chief chief_right">-->
-<!--        <img  src="./images/123123.png" alt=""/>-->
-<!--    </div>-->
+    <div class="chief chief_left">
+        <img  src="./images/1212.png" alt=""/>
+    </div>
+    <div class="chief chief_right">
+        <img  src="./images/123123.png" alt=""/>
+    </div>
     <div class="container">
         <img class="bg-pic" src="./images/bg-pic111.jpg" alt=""/>
         <div class="huochai" style="position: absolute;;width: 100%;text-align: right">
