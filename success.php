@@ -29,25 +29,31 @@
         .button_box img{width: 50%}
         .info_box{width:100%;text-align: center;bottom: 300px; }
         .info_box p{font-size: 40px;color:#fff;line-height: 70px}
-        @media screen and (min-width: 320px) {.button_box{bottom:35px;} .info_box p{font-size: 24px;line-height: 40px}.info_box{bottom: 150px;} }
-        @media screen and (min-width: 360px) {.button_box{bottom:35px;} .info_box p{font-size: 26px;line-height: 45px}.info_box{bottom: 165px;} }
-        @media screen and (min-width: 375px) {.button_box{bottom:35px;} .info_box p{font-size: 26px;line-height: 45px}.info_box{bottom: 170px;} }
-        @media screen and (min-width: 384px) {.button_box{bottom:35px;} .info_box p{font-size: 26px;line-height: 45px}.info_box{bottom: 170px;} }
-        @media screen and (min-width: 414px) {.button_box{bottom:45px;} .info_box p{font-size: 30px;line-height: 45px}.info_box{bottom: 200px;} }
-        @media screen and (min-width: 600px) {.button_box{bottom:50px;} .info_box p{font-size: 40px;line-height: 70px}.info_box{bottom: 300px;} }
+        @media screen and (min-width: 320px) {.button_box{bottom:35px;} .info_box p{font-size: 15px;line-height: 25px}.info_box{bottom: 190px;} }
+        @media screen and (min-width: 360px) {.button_box{bottom:35px;} .info_box p{font-size: 16px;line-height: 25px}.info_box{bottom: 215px;} }
+        @media screen and (min-width: 375px) {.button_box{bottom:35px;} .info_box p{font-size: 16px;line-height: 25px}.info_box{bottom: 225px;} }
+        @media screen and (min-width: 384px) {.button_box{bottom:35px;} .info_box p{font-size: 17px;line-height: 30px}.info_box{bottom: 230px;} }
+        @media screen and (min-width: 414px) {.button_box{bottom:45px;} .info_box p{font-size: 20px;line-height: 30px}.info_box{bottom: 250px;} }
+        @media screen and (min-width: 600px) {.button_box{bottom:50px;} .info_box p{font-size: 30px;line-height: 45px}.info_box{bottom: 360px;} }
 
     </style>
 </head>
 <div class="wrap">
     <div class="container" style="position: relative">
-        <img style="width:100%" src="./images/success1.jpg" alt=""/>
+<!--        <img style="width:100%"src="./images/success1.jpg" alt=""/>-->
+        <img style="width:100%;display: none" src="./images/tianehu.jpg" alt=""/>
+        <img style="width:100%;display: block" src="./images/baohe.jpg" alt=""/>
+        <img style="width:100%;display: none" src="./images/maanshan.jpg" alt=""/>
+        <img style="width:100%;display: none" src="./images/fuyang.jpg" alt=""/>
+        <img style="width:100%;display: none" src="./images/bengbu.jpg" alt=""/>
+        <img style="width:100%;display: none" src="./images/wuhu.jpg" alt=""/>
         <div class="info_box">
             <p>姓名</p>
             <p>电话</p>
         </div>
-        <div class="button_box">
-            <a href=""><img src="./images/sure.png" alt=""/></a>
-        </div>
+<!--        <div class="button_box">-->
+<!--            <a href=""><img src="./images/sure.png" alt=""/></a>-->
+<!--        </div>-->
     </div>
     <p class="skill">技术支持 : 安徽瀚滔网络</p>
     

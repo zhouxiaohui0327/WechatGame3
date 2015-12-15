@@ -78,8 +78,8 @@
         <a href="./join.php"><img src="./images/join.jpg" alt=""/></a>
         <a href="javascript:rule()"><img src="./images/rule.jpg" alt=""/></a>
     </div>
-    <div class="ruleWrap" style="display:none">                                           <!--规则弹出框-->
-        <img src="./images/rule_pic.jpg" alt=""/>
+    <div class="ruleWrap" style="display:none;top:0">                                           <!--规则弹出框-->
+        <img style="width: 70%" src="./images/guize.jpg" alt=""/>
     </div>
 
     <script>
