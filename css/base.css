@@ -66,7 +66,7 @@ input:focus{
 }
 .skill{
     text-align: center;
-    background-color: 8d0246;
+    background-color: #8d0246;
     margin-top: -1px;
     line-height: 30px;
     color: white;
@@ -267,7 +267,7 @@ input:-ms-input-placeholder {
 @media screen and (min-width:320px){
     .chief img{height:609px;}
     .ruleWrap{top:50px;}
-    .thr_btn{bottom:30px}
+    .thr_btn{top:490px}
 
     .info{top:95px;}
     .info input{line-height: 30px;margin-bottom: 12px;  box-shadow: 3px 5px 2px #5a0000;font-size: 18px;  border-radius: 5px; }
@@ -284,7 +284,7 @@ input:-ms-input-placeholder {
 @media screen and (min-width:360px){
     .chief img{height:680px;}
     .ruleWrap{top:60px;}
-
+    .thr_btn{top:550px}
 
     .info{top:110px;}
     .info input{line-height: 30px;margin-bottom: 15px;  box-shadow: 3px 5px 2px #5a0000;font-size: 20px;  border-radius: 5px; }
@@ -304,6 +304,7 @@ input:-ms-input-placeholder {
 @media screen and (min-width:375px){
     .chief img{height:707px;}
     .ruleWrap{top:60px;}
+    .thr_btn{top:570px}
 
 
     .info{top:115px;}
@@ -322,6 +323,7 @@ input:-ms-input-placeholder {
 @media screen and (min-width:384px){
     .chief img{height:723px;}
     .ruleWrap{top:60px;}
+    .thr_btn{top:590px}
 
     .info{top:120px;}
     .info input{line-height: 31px;margin-bottom: 17px;  box-shadow: 3px 5px 2px #5a0000;font-size: 20px;  border-radius: 5px; }
@@ -340,6 +342,7 @@ input:-ms-input-placeholder {
     .chief img{height:776px;}
     .ruleWrap{top:70px;}
     .skill{font-size: 14px}
+    .thr_btn{top:630px}
 
     .info{top:130px;}
     .info input{line-height: 36px;margin-bottom: 20px;  box-shadow: 3px 5px 2px #5a0000;font-size: 20px;  border-radius: 5px; }
@@ -358,6 +361,7 @@ input:-ms-input-placeholder {
 @media screen and (min-width:600px){
     .chief img{height:1107px;}
     .ruleWrap{top:100px}
+    .thr_btn{top:910px}
 
 
     .info{top:195px;}
@@ -372,4 +376,72 @@ input:-ms-input-placeholder {
     .faceWrap{top:370px}
     .faceWrap p{font-size: 30px;margin-top: -75px}
 
+}
+
+
+
+
+
+/*帮忙的小伙伴们*/
+.bottom_list .friend_list{background-color: #8d0246;overflow: hidden}
+.bottom_list .title{font-size: 22px;  background-color: #8d0246;color: #fff;padding: 10px}
+.bottom_list .friend_list .friend_pic{background: url(../images/123456.png)no-repeat 0 -19px;background-size:80px 160px;float: left;padding-top: 10px;padding-bottom: 10px;}
+.bottom_list .friend_list .friend_pic img{width: 90px;height: 90px;border-radius: 45px;}
+.bottom_list .friend_list .friend_info{float: left;width: 500px;margin-top: 20px;margin-left: 10px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.bottom_list .friend_list .friend_info p{color:#fff;font-size: 20px;letter-spacing: 1px}
+.bottom_list .friend_list .time{float: left;margin-left: 10px}
+.bottom_list .friend_list .time p{color:#fff;font-size: 20px}
+@media screen and (min-width:320px){
+    .bottom_list .title{font-size: 15px}
+    .bottom_list .friend_list .friend_pic img{width: 50px;height: 50px;border-radius: 30px}
+    .bottom_list .friend_list .friend_pic{background-size: 60px 120px;background-position: -6px -13px;padding-top: 5px;padding-bottom: 5px}
+    .bottom_list .friend_list .friend_info{width: 250px;margin-top: 10px;margin-left: 10px}
+    .bottom_list .friend_list .friend_info p{font-size: 15px;}
+    .bottom_list .friend_list .time p{font-size: 12px}
+    .thr_btn{top:490px}
+}
+@media screen and (min-width:360px){
+    .bottom_list .title{font-size: 17px}
+    .bottom_list .friend_list .friend_pic img{width: 60px;height: 60px;border-radius: 30px}
+    .bottom_list .friend_list .friend_pic{background-size: 60px 120px;background-position: -1px -20px;padding-top: 5px;padding-bottom: 5px}
+    .bottom_list .friend_list .friend_info{width: 280px;margin-top: 15px;margin-left: 10px}
+    .bottom_list .friend_list .friend_info p{font-size: 15px;}
+    .bottom_list .friend_list .time p{font-size: 13px}
+    .thr_btn{top:550px}
+}
+@media screen and (min-width:375px){
+    .bottom_list .title{font-size: 17px}
+    .bottom_list .friend_list .friend_pic img{width: 60px;height: 60px;border-radius: 30px}
+    .bottom_list .friend_list .friend_pic{background-size: 60px 120px;background-position: -1px -20px;padding-top: 5px;padding-bottom: 5px}
+    .bottom_list .friend_list .friend_info{width: 280px;margin-top: 15px;margin-left: 10px}
+    .bottom_list .friend_list .friend_info p{font-size: 15px;}
+    .bottom_list .friend_list .time p{font-size: 13px}
+    .thr_btn{top:570px}
+}
+@media screen and (min-width:384px){
+    .bottom_list .title{font-size: 17px}
+    .bottom_list .friend_list .friend_pic img{width: 60px;height: 60px;border-radius: 30px}
+    .bottom_list .friend_list .friend_pic{background-size: 60px 120px;background-position: -1px -20px;padding-top: 5px;padding-bottom: 5px}
+    .bottom_list .friend_list .friend_info{width: 280px;margin-top: 15px;margin-left: 10px}
+    .bottom_list .friend_list .friend_info p{font-size: 15px;}
+    .bottom_list .friend_list .time p{font-size: 13px}
+    .thr_btn{top:590px}
+}
+@media screen and (min-width:414px){
+    .bottom_list .title{font-size: 17px}
+    .bottom_list .friend_list .friend_pic img{width: 70px;height: 70px;border-radius: 40px}
+    .bottom_list .friend_list .friend_pic{background-size: 60px 120px;background-position: 5px -20px;padding-top: 5px;padding-bottom: 5px}
+    .bottom_list .friend_list .friend_info{width: 300px;margin-top: 20px;margin-left: 10px}
+    .bottom_list .friend_list .friend_info p{font-size: 15px;}
+    .bottom_list .friend_list .time p{font-size: 14px}
+    .thr_btn{top:630px}
+}
+@media screen and (min-width:600px){
+    .bottom_list .title{font-size: 22px}
+    .bottom_list .friend_list .friend_pic img{width: 90px;height: 90px;border-radius: 45px}
+    .bottom_list .friend_list .friend_pic{background-size: 80px 160px;background-position: 0px -19px;padding-top: 10px;padding-bottom: 10px}
+    .bottom_list .friend_list .friend_info{width: 500px;margin-top: 20px;margin-left: 10px}
+    .bottom_list .friend_list .friend_info p{font-size: 20px;}
+    .bottom_list .friend_list .time p{font-size: 20px}
+    .thr_btn{top:910px}
 }

@@ -35,6 +35,7 @@
         @media screen and (min-width: 375px){.huochai{top:404px;}}
         @media screen and (min-width: 384px){.huochai{top:415px;}}
         @media screen and (min-width: 414px){.huochai{top:450px;}}
+        @media screen and (min-width: 600px){.huochai{top:673px;}}
 
             .huochai img{
                 margin-top: 30px;margin-right: 30px;
@@ -53,22 +54,20 @@
                 50% {margin-top: 55px;margin-right: -10px}
                 100%{margin-top:30px;margin-right: 30px;}
             }
-
-
     </style>
 </head>
 <body onload="setTimeout('myfunction()',2000)">
 <div id="d-mask" style="display:none"></div>                   <!--黑色透明背景-->
 <div class="wrap">
     <div class="chief chief_left">
-        <img  src="./images/1212.png" alt=""/>
+        <img  src="./images/index111.png" alt=""/>
     </div>
     <div class="chief chief_right">
-        <img  src="./images/123123.png" alt=""/>
+        <img  src="./images/index222.jpg" alt=""/>
     </div>
     <div class="container">
         <img class="bg-pic" src="./images/bg-pic111.jpg" alt=""/>
-        <div class="huochai" style="position: absolute;;width: 100%;text-align: right">
+        <div class="huochai" id="huochai" style="position: absolute;;width: 100%;text-align: right">
             <img style="width: 23%;margin-top: 30px;margin-right: 30px;" src="images/huochai1.png" alt=""/>
         </div>
 

@@ -87,6 +87,16 @@
         <img class="bg-pic" src="./images/bg-pic4.jpg" alt=""/>
         <p class="skill">技术支持 : 安徽瀚滔网络</p>
     </div>
+
+    <div class="bottom_list">
+        <p class="title">帮忙的小伙伴们</p>                                                        <!--帮忙的小伙伴们-->
+        <ul class="friend_list">
+            <li class="friend_pic"><img src="./images/get.jpg" alt=""/></li>
+            <li class="friend_info"><p><span style="color:yellow">骑着蜗牛闯红灯</span>帮你点燃蜡烛</p></li>
+            <li class="time"><p>2015-12-14 22:22</p></li>
+        </ul>
+
+    </div>
     <div class="thr_btn">
         <a href=""><img src="./images/get.jpg" alt=""/></a>
         <a href="javascript:Invitation()"><img style="width:26%" src="./images/Invitation.jpg" alt=""/></a>

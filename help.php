@@ -36,13 +36,23 @@
             $(".chief_right").animate({right:"-300px"},2000);
         }
     </script>
+
+    <script>
+        $("#d-mask").click(function(){
+            $(this).css({display:"none"});
+            $(".faceWrap1").css({display:"none"});
+        });
+        $(".faceWrap1").click(function(){
+            $(this).css({display:"none"});
+            $("#d-mask").css({display:"none"});
+        })
+    </script>
 </head>
 <body onload="setTimeout('myfunction()',2000)">
 <div id="d-mask" style="display:none"></div>                   <!--黑色透明背景-->
 <div class="wrap">
-    <div class="faceWrap" style="display: none">              <!--成功帮好友点蜡烛，弹出框-->
-        <img src="./images/success.png" alt=""/>
-        <p>恭喜您成功帮好友点燃蜡烛！</p>
+    <div class="faceWrap1" style="display:none;position: absolute;top: 0;z-index:1994;">              <!--成功帮好友点蜡烛，弹出框-->
+        <img style="width: 100%" src="./images/success.png" alt=""/>
     </div>
 
     <div class="ruleWrap" style="display:none">                                           <!--活动规则弹出框-->
